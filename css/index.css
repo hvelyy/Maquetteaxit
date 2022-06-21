@@ -1,0 +1,557 @@
+/* open-sans-300 - latin */
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/open-sans-v29-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/open-sans-v29-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v29-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v29-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v29-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v29-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  
+  /* open-sans-regular - latin */
+  @font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v29-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/open-sans-v29-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v29-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v29-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v29-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v29-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  
+  /* open-sans-600 - latin */
+  @font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v29-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/open-sans-v29-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v29-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v29-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v29-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v29-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  
+
+  /* raleway-regular - latin */
+/* raleway-100 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/raleway-v27-latin-100.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v27-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v27-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v27-latin-100.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v27-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v27-latin-100.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  /* raleway-200 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/raleway-v27-latin-200.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v27-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v27-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v27-latin-200.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v27-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v27-latin-200.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  /* raleway-300 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/raleway-v27-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v27-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v27-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v27-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v27-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v27-latin-300.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  /* raleway-regular - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v27-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  /* raleway-500 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/raleway-v27-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v27-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v27-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v27-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v27-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v27-latin-500.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  /* raleway-600 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/raleway-v27-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v27-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v27-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v27-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v27-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v27-latin-600.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  
+     
+*
+{
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+#page
+{
+    font-family:'OpenSans';
+
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+h2
+{
+    font-family:'Raleway';
+    font-size: 36px;
+    font-weight: 400;
+}
+.conteneur
+{
+    width: 1125px;
+    margin: auto;
+}
+
+.opensans
+{
+    font-family:'OpenSans';
+    font-size: 14px;
+    font-weight: 300;
+    color: #86878b;
+}
+
+
+
+/********************************************** Header ************************************************************************/
+.backgroundcolor
+{
+    background-color: black;
+ 
+}
+
+main
+{
+    margin-bottom: 84px;
+}
+
+header
+{
+    color: white ;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+}
+
+nav ul
+{
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+
+}
+
+nav li
+{
+    
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#backgroundimageentete
+{
+    background-image: url('../images/image2.jpg');
+    background-size: cover;
+}
+
+.principalentete
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.entetegauche 
+{
+    width: 535px;
+    padding-top: 110px;
+    padding-bottom: 140px;
+}
+
+.separateur
+{
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+.entetegauche p
+{
+    font-family:'Raleway' ;
+    font-weight: 100;
+    margin-bottom: 47px;
+}
+
+.entetegauche a
+{
+    font-family:'OpenSans' ;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px white solid;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+  
+    
+}
+
+
+/*************************************************** FORMULAIRE ***************************************************************/
+
+.formulaire
+{
+    width: 360px;
+    
+}
+
+input
+{
+    border-top: none;
+    border-left: none;
+    border-bottom: black ;
+    border-right: black;
+}
+
+.orange
+{
+    color: #ff8b38;
+}
+
+.formulaire form
+{
+    
+    color: black;
+    text-align: center;
+    
+}
+
+.blancform
+{
+    background-color: white;
+    margin-top: -20px;
+   
+}
+
+.formulaire input
+{
+    
+    width: 285px;
+}
+
+.champform
+{
+    margin-bottom: 45px;
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+}
+
+#envoyer
+{
+    background-color: #ff9b51;
+    color: white;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+.formulaire h3
+{
+  
+    font-family: 'OpenSans';
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px #86878b solid;
+    border-radius: 10px 10px 0px 0px;
+    
+    
+}
+
+#envoyer
+{
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-radius: 0px 0px 10px 10px;
+   
+    
+}
+
+#inputname
+{
+   margin-top: 36px; 
+}
+
+/********************************************************** SECTION 1 ********************************************************************/
+
+#partie1
+{
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+
+.partie1
+{
+    width: 476px;
+  
+    margin-top: 95px;
+}
+
+.partie1 h4
+{
+    font-family: 'OpenSans';
+    font-size: 20px;
+    font-weight: 600;
+    color: #212121;
+}
+
+.partie1 img
+{
+    margin-top: 15px;
+    margin-bottom: 20px ;
+}
+
+.backgroundarticle1
+{
+    background-color: #f5f5f5;
+
+}
+
+/************************************************************************ Article 2 ******************************************************************/
+
+.titreart2
+{
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.titreart2 h2
+{
+    color: #212121;
+}
+
+#partie2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+
+.partie
+{
+    text-align: center;
+    
+}
+
+h5
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+
+
+/************************************************************************************** Section 2 ***********************************************************************/
+
+#backgroundstylish
+{
+    background-image: url('../images/bannierebas.jpg');
+    background-size: cover;
+    background-position-y: 100%;
+}
+
+.stylish
+{
+    color: white;
+    text-align: center;
+    margin-bottom: 109px;
+}
+
+.stylish p
+{
+    font-size: 16px;
+    font-family: 'OpenSans';
+    font-weight: 200;
+    margin-bottom: 35px;
+}
+
+.stylish 
+{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.stylish img
+{
+    margin-bottom: 20px;
+}
+
+.stylish button
+{
+    color: white;
+    font-family: 'OpenSans';
+    font-weight: 500;
+    background: none;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+/*********************************************************************************** CONTACT ****************************************************************************/
+.contact
+{
+    text-align: center;
+}
+
+.contact img
+{
+    margin-top: 30px;
+    margin-bottom: 34px;
+}
+
+.formcontact
+{
+    margin-top: 80px ;
+}
+
+#flexformcontact
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputformcontact
+{
+   width: 530px;
+   margin-bottom: 40px;
+   box-shadow: 5px 5px 5px red;
+}
+
+#messageform
+{
+    width: 530px;
+    height: 160px;
+}
+
+#envoyercontact
+{
+    background-color: #ff9b51;
+    color: white;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+
+/************************************************************** FOOTER **************************************************************/
+
+.iconefooter
+{
+    color: white;
+    font-size: 24px;
+    padding-right: 25px;
+}
+
+footer
+{
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 15px;
+    
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+

@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1100px) {
+    .conteneur
+     {
+        width: 90%;
+        flex-wrap: wrap;
+        }
+
+        #page 
+        {
+        width: 70%;
+        flex-wrap: wrap;
+        }
+
+        #coter
+         {
+        width: 25%;
+        flex-wrap: wrap;
+        
+        }
+  }
+
+
+  
+  @media only screen and (max-width: 700px) {
+
+    .conteneur{
+        width : 100%;
+        margin:0px;
+        padding:0px;
+        flex-wrap: wrap;
+        }
+
+        #flexformcontact
+        {
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .formcontact
+        {
+            margin: 0;
+            width: 100%;
+        }
+
+        #backgroundstylish
+        {
+            width: 100%;
+        }
+
+        .stylish
+        {
+            width: 100%;
+        }
+
+        .footer
+        {
+            width: 100%;
+        }
+
+        .principalentete
+        {
+            flex-wrap: wrap;
+            width: 100%;
+            margin: 0;
+        }
+
+  }
